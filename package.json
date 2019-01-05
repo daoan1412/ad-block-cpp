@@ -1,0 +1,29 @@
+{
+  "name": "ad-enhance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node-gyp rebuild",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daoan1412/ad-block-cpp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daoan1412/ad-block-cpp/issues"
+  },
+  "homepage": "https://github.com/daoan1412/ad-block-cpp#readme",
+  "dependencies": {
+    "ad-block": "^4.1.1",
+    "download-file-sync": "^1.0.4",
+    "nan": "^2.12.1"
+  }
+}

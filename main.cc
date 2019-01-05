@@ -11,6 +11,7 @@
 #include <sstream>
 #include <string>
 #include "./ad_block_client.h"
+//#include "nan.h"
 
 using std::cout;
 using std::endl;
@@ -27,6 +28,8 @@ string getFileContents(const char *filename) {
     throw(errno);
 }
 
+
+
 void writeFile(const char *filename, const char *buffer, int length) {
     std::ofstream outFile(filename, std::ios::out | std::ios::binary);
     if (outFile) {
@@ -37,72 +40,50 @@ void writeFile(const char *filename, const char *buffer, int length) {
     throw(errno);
 }
 
-int checkForClient(AdBlockClient *pClient, const char *outputPath,
-                   const std::vector<std::string> &urlsToCheck) {
-    AdBlockClient &client = *pClient;
-    // This is the site who's URLs are being checked, not the domain of the
-    // URL being checked.
+int checkForClient(const std::vector<std::string> &urlsToCheck) {
     const char *currentPageDomain = "theguardian.com";
 
-    // Do the checks
-    std::for_each(urlsToCheck.begin(), urlsToCheck.end(),
-                  [&client, currentPageDomain](std::string const &urlToCheck) {
-                      if (client.matches(urlToCheck.c_str(),
-                                         FOGenericHide, currentPageDomain)) {
-                          cout << urlToCheck << ": You should block this URL!" << endl;
-                      } else {
-                          cout << urlToCheck << ": You should NOT block this URL!" << endl;
-                      }
-                  });
-
-    int size;
-    // This buffer is allocate on the heap, you must call delete[] when
-    // you're done using it.
-    char *buffer = client.serialize(&size);
-    writeFile(outputPath, buffer, size);
 
     AdBlockClient client2;
     // Deserialize uses the buffer directly for subsequent matches, do not free
     // until all matches are done.
-    if (!client2.deserialize(buffer)) {
-        cout << "Could not deserialize";
+    std::ifstream is ("./ABPFilterClientData.dat", std::ifstream::binary);
+
+    if (is) {
+        // get length of file:
+        is.seekg (0, is.end);
+        int length = is.tellg();
+        is.seekg (0, is.beg);
+        char * buffer = new char [length];
+        // read data as a block:
+        is.read (buffer,length);
+
+        if (is)
+            std::cout << "all characters read successfully.";
+        else
+            std::cout << "error: only " << is.gcount() << " could be read";
+        is.close();
+
+        AdBlockClient client2;
+        client2.deserialize(buffer);
+        std::for_each(urlsToCheck.begin(), urlsToCheck.end(),
+                      [&client2, currentPageDomain](std::string const &urlToCheck) {
+                          if (client2.matches(urlToCheck.c_str(),
+                                             FOGenericHide, currentPageDomain)) {
+                              cout << urlToCheck << ": You should block this URL!" << endl;
+                          } else {
+                              cout << urlToCheck << ": You should NOT block this URL!" << endl;
+                          }
+                      });
         delete[] buffer;
-        return 0;
     }
-    // Prints the same as client.matches would
-    std::for_each(urlsToCheck.begin(), urlsToCheck.end(),
-                  [&client2, currentPageDomain](std::string const &urlToCheck) {
-                      if (client2.matches(urlToCheck.c_str(),
-                                          FONoFilterOption, currentPageDomain)) {
-                          cout << urlToCheck << ": You should block this URL!" << endl;
-                      } else {
-                          cout << urlToCheck << ": You should NOT block this URL!" << endl;
-                      }
-                  });
-    delete[] buffer;
+
     return 0;
 }
 
 
 int main(int argc, char**argv) {
-        std::string && easyListTxt = getFileContents("/Users/daoan/Desktop/ad-enhance/test/data/easylist.txt");
-        std::string && easyPrivacyTxt =
-                getFileContents("/Users/daoan/Desktop/ad-enhance/test/data/easyprivacy.txt");
-        std::string && ublockUnblockTxt =
-                getFileContents("/Users/daoan/Desktop/ad-enhance/test/data/ublock-unbreak.txt");
-        std::string && braveUnblockTxt =
-                getFileContents("/Users/daoan/Desktop/ad-enhance/test/data/brave-unbreak.txt");
-        std::string && spam404MainBlacklistTxt =
-                getFileContents("/Users/daoan/Desktop/ad-enhance/test/data/spam404-main-blacklist.txt");
-        std::string && disconnectSimpleMalwareTxt =
-                getFileContents("/Users/daoan/Desktop/ad-enhance/test/data/disconnect-simple-malware.txt");
 
-        // Parse filter lists for adblock
-        AdBlockClient adBlockClient;
-        adBlockClient.parse(easyListTxt.c_str());
-        adBlockClient.parse(easyPrivacyTxt.c_str());
-        adBlockClient.parse(ublockUnblockTxt.c_str());
-        adBlockClient.parse(braveUnblockTxt.c_str());
         std::vector<std::string> checkVector;
         checkVector.push_back(
                 "https://www.nytimes.com/");
@@ -111,17 +92,7 @@ int main(int argc, char**argv) {
         checkVector.push_back(
                 "http://www.googletagservices.com/tag/js/gpt_mobile.js");
         checkVector.push_back("http://www.brianbondy.com");
-        checkForClient(&adBlockClient, "./ABPFilterClientData.dat", checkVector);
-
-        // Parse filter lists for malware
-        AdBlockClient malwareClient;
-        malwareClient.parse(spam404MainBlacklistTxt.c_str());
-        malwareClient.parse(disconnectSimpleMalwareTxt.c_str());
-        std::vector<std::string> checkVector2;
-        checkVector2.push_back("http://freexblcode.com/test");
-        checkVector2.push_back("https://malware-check.disconnect.me");
-        checkVector2.push_back("http://www.brianbondy.com");
-        checkForClient(&malwareClient, "./SafeBrowsingData.dat", checkVector2);
+        checkForClient(checkVector);
 
     return 0;
 }

@@ -88,22 +88,10 @@
 		<Unit filename="/Users/daoan/Desktop/ad-enhance/ad_block_client.h">
 			<Option target="ad_enhance"/>
 		</Unit>
-		<Unit filename="/Users/daoan/Desktop/ad-enhance/bad_fingerprint.h">
-			<Option target="ad_enhance"/>
-		</Unit>
-		<Unit filename="/Users/daoan/Desktop/ad-enhance/bad_fingerprints.h">
-			<Option target="ad_enhance"/>
-		</Unit>
-		<Unit filename="/Users/daoan/Desktop/ad-enhance/base.h">
-			<Option target="ad_enhance"/>
-		</Unit>
 		<Unit filename="/Users/daoan/Desktop/ad-enhance/bloom-filter-cpp/BloomFilter.cpp">
 			<Option target="ad_enhance"/>
 		</Unit>
 		<Unit filename="/Users/daoan/Desktop/ad-enhance/bloom-filter-cpp/BloomFilter.h">
-			<Option target="ad_enhance"/>
-		</Unit>
-		<Unit filename="/Users/daoan/Desktop/ad-enhance/bloom-filter-cpp/base.h">
 			<Option target="ad_enhance"/>
 		</Unit>
 		<Unit filename="/Users/daoan/Desktop/ad-enhance/bloom-filter-cpp/hashFn.cpp">
@@ -128,12 +116,6 @@
 			<Option target="ad_enhance"/>
 		</Unit>
 		<Unit filename="/Users/daoan/Desktop/ad-enhance/filter_list.h">
-			<Option target="ad_enhance"/>
-		</Unit>
-		<Unit filename="/Users/daoan/Desktop/ad-enhance/hashset-cpp/base.h">
-			<Option target="ad_enhance"/>
-		</Unit>
-		<Unit filename="/Users/daoan/Desktop/ad-enhance/hashset-cpp/hash_item.h">
 			<Option target="ad_enhance"/>
 		</Unit>
 		<Unit filename="/Users/daoan/Desktop/ad-enhance/hashset-cpp/hash_set.cc">

@@ -57,100 +57,9 @@ include CMakeFiles/ad_enhance.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ad_enhance.dir/flags.make
 
-CMakeFiles/ad_enhance.dir/ad_block_client.cc.o: CMakeFiles/ad_enhance.dir/flags.make
-CMakeFiles/ad_enhance.dir/ad_block_client.cc.o: ../ad_block_client.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ad_enhance.dir/ad_block_client.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ad_enhance.dir/ad_block_client.cc.o -c /Users/daoan/Desktop/ad-enhance/ad_block_client.cc
-
-CMakeFiles/ad_enhance.dir/ad_block_client.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ad_enhance.dir/ad_block_client.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daoan/Desktop/ad-enhance/ad_block_client.cc > CMakeFiles/ad_enhance.dir/ad_block_client.cc.i
-
-CMakeFiles/ad_enhance.dir/ad_block_client.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ad_enhance.dir/ad_block_client.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daoan/Desktop/ad-enhance/ad_block_client.cc -o CMakeFiles/ad_enhance.dir/ad_block_client.cc.s
-
-CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.o: CMakeFiles/ad_enhance.dir/flags.make
-CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.o: ../cosmetic_filter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.o -c /Users/daoan/Desktop/ad-enhance/cosmetic_filter.cc
-
-CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daoan/Desktop/ad-enhance/cosmetic_filter.cc > CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.i
-
-CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daoan/Desktop/ad-enhance/cosmetic_filter.cc -o CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.s
-
-CMakeFiles/ad_enhance.dir/filter.cc.o: CMakeFiles/ad_enhance.dir/flags.make
-CMakeFiles/ad_enhance.dir/filter.cc.o: ../filter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ad_enhance.dir/filter.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ad_enhance.dir/filter.cc.o -c /Users/daoan/Desktop/ad-enhance/filter.cc
-
-CMakeFiles/ad_enhance.dir/filter.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ad_enhance.dir/filter.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daoan/Desktop/ad-enhance/filter.cc > CMakeFiles/ad_enhance.dir/filter.cc.i
-
-CMakeFiles/ad_enhance.dir/filter.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ad_enhance.dir/filter.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daoan/Desktop/ad-enhance/filter.cc -o CMakeFiles/ad_enhance.dir/filter.cc.s
-
-CMakeFiles/ad_enhance.dir/filter_list.cc.o: CMakeFiles/ad_enhance.dir/flags.make
-CMakeFiles/ad_enhance.dir/filter_list.cc.o: ../filter_list.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ad_enhance.dir/filter_list.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ad_enhance.dir/filter_list.cc.o -c /Users/daoan/Desktop/ad-enhance/filter_list.cc
-
-CMakeFiles/ad_enhance.dir/filter_list.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ad_enhance.dir/filter_list.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daoan/Desktop/ad-enhance/filter_list.cc > CMakeFiles/ad_enhance.dir/filter_list.cc.i
-
-CMakeFiles/ad_enhance.dir/filter_list.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ad_enhance.dir/filter_list.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daoan/Desktop/ad-enhance/filter_list.cc -o CMakeFiles/ad_enhance.dir/filter_list.cc.s
-
-CMakeFiles/ad_enhance.dir/main.cc.o: CMakeFiles/ad_enhance.dir/flags.make
-CMakeFiles/ad_enhance.dir/main.cc.o: ../main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ad_enhance.dir/main.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ad_enhance.dir/main.cc.o -c /Users/daoan/Desktop/ad-enhance/main.cc
-
-CMakeFiles/ad_enhance.dir/main.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ad_enhance.dir/main.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daoan/Desktop/ad-enhance/main.cc > CMakeFiles/ad_enhance.dir/main.cc.i
-
-CMakeFiles/ad_enhance.dir/main.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ad_enhance.dir/main.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daoan/Desktop/ad-enhance/main.cc -o CMakeFiles/ad_enhance.dir/main.cc.s
-
-CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.o: CMakeFiles/ad_enhance.dir/flags.make
-CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.o: ../no_fingerprint_domain.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.o -c /Users/daoan/Desktop/ad-enhance/no_fingerprint_domain.cc
-
-CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daoan/Desktop/ad-enhance/no_fingerprint_domain.cc > CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.i
-
-CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daoan/Desktop/ad-enhance/no_fingerprint_domain.cc -o CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.s
-
-CMakeFiles/ad_enhance.dir/protocol.cc.o: CMakeFiles/ad_enhance.dir/flags.make
-CMakeFiles/ad_enhance.dir/protocol.cc.o: ../protocol.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ad_enhance.dir/protocol.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ad_enhance.dir/protocol.cc.o -c /Users/daoan/Desktop/ad-enhance/protocol.cc
-
-CMakeFiles/ad_enhance.dir/protocol.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ad_enhance.dir/protocol.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daoan/Desktop/ad-enhance/protocol.cc > CMakeFiles/ad_enhance.dir/protocol.cc.i
-
-CMakeFiles/ad_enhance.dir/protocol.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ad_enhance.dir/protocol.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daoan/Desktop/ad-enhance/protocol.cc -o CMakeFiles/ad_enhance.dir/protocol.cc.s
-
 CMakeFiles/ad_enhance.dir/bloom-filter-cpp/BloomFilter.cpp.o: CMakeFiles/ad_enhance.dir/flags.make
 CMakeFiles/ad_enhance.dir/bloom-filter-cpp/BloomFilter.cpp.o: ../bloom-filter-cpp/BloomFilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ad_enhance.dir/bloom-filter-cpp/BloomFilter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ad_enhance.dir/bloom-filter-cpp/BloomFilter.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ad_enhance.dir/bloom-filter-cpp/BloomFilter.cpp.o -c /Users/daoan/Desktop/ad-enhance/bloom-filter-cpp/BloomFilter.cpp
 
 CMakeFiles/ad_enhance.dir/bloom-filter-cpp/BloomFilter.cpp.i: cmake_force
@@ -163,7 +72,7 @@ CMakeFiles/ad_enhance.dir/bloom-filter-cpp/BloomFilter.cpp.s: cmake_force
 
 CMakeFiles/ad_enhance.dir/bloom-filter-cpp/hashFn.cpp.o: CMakeFiles/ad_enhance.dir/flags.make
 CMakeFiles/ad_enhance.dir/bloom-filter-cpp/hashFn.cpp.o: ../bloom-filter-cpp/hashFn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ad_enhance.dir/bloom-filter-cpp/hashFn.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ad_enhance.dir/bloom-filter-cpp/hashFn.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ad_enhance.dir/bloom-filter-cpp/hashFn.cpp.o -c /Users/daoan/Desktop/ad-enhance/bloom-filter-cpp/hashFn.cpp
 
 CMakeFiles/ad_enhance.dir/bloom-filter-cpp/hashFn.cpp.i: cmake_force
@@ -176,7 +85,7 @@ CMakeFiles/ad_enhance.dir/bloom-filter-cpp/hashFn.cpp.s: cmake_force
 
 CMakeFiles/ad_enhance.dir/hashset-cpp/hash_set.cc.o: CMakeFiles/ad_enhance.dir/flags.make
 CMakeFiles/ad_enhance.dir/hashset-cpp/hash_set.cc.o: ../hashset-cpp/hash_set.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ad_enhance.dir/hashset-cpp/hash_set.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ad_enhance.dir/hashset-cpp/hash_set.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ad_enhance.dir/hashset-cpp/hash_set.cc.o -c /Users/daoan/Desktop/ad-enhance/hashset-cpp/hash_set.cc
 
 CMakeFiles/ad_enhance.dir/hashset-cpp/hash_set.cc.i: cmake_force
@@ -187,22 +96,116 @@ CMakeFiles/ad_enhance.dir/hashset-cpp/hash_set.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ad_enhance.dir/hashset-cpp/hash_set.cc.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daoan/Desktop/ad-enhance/hashset-cpp/hash_set.cc -o CMakeFiles/ad_enhance.dir/hashset-cpp/hash_set.cc.s
 
+CMakeFiles/ad_enhance.dir/ad_block_client.cc.o: CMakeFiles/ad_enhance.dir/flags.make
+CMakeFiles/ad_enhance.dir/ad_block_client.cc.o: ../ad_block_client.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ad_enhance.dir/ad_block_client.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ad_enhance.dir/ad_block_client.cc.o -c /Users/daoan/Desktop/ad-enhance/ad_block_client.cc
+
+CMakeFiles/ad_enhance.dir/ad_block_client.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ad_enhance.dir/ad_block_client.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daoan/Desktop/ad-enhance/ad_block_client.cc > CMakeFiles/ad_enhance.dir/ad_block_client.cc.i
+
+CMakeFiles/ad_enhance.dir/ad_block_client.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ad_enhance.dir/ad_block_client.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daoan/Desktop/ad-enhance/ad_block_client.cc -o CMakeFiles/ad_enhance.dir/ad_block_client.cc.s
+
+CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.o: CMakeFiles/ad_enhance.dir/flags.make
+CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.o: ../cosmetic_filter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.o -c /Users/daoan/Desktop/ad-enhance/cosmetic_filter.cc
+
+CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daoan/Desktop/ad-enhance/cosmetic_filter.cc > CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.i
+
+CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daoan/Desktop/ad-enhance/cosmetic_filter.cc -o CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.s
+
+CMakeFiles/ad_enhance.dir/filter.cc.o: CMakeFiles/ad_enhance.dir/flags.make
+CMakeFiles/ad_enhance.dir/filter.cc.o: ../filter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ad_enhance.dir/filter.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ad_enhance.dir/filter.cc.o -c /Users/daoan/Desktop/ad-enhance/filter.cc
+
+CMakeFiles/ad_enhance.dir/filter.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ad_enhance.dir/filter.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daoan/Desktop/ad-enhance/filter.cc > CMakeFiles/ad_enhance.dir/filter.cc.i
+
+CMakeFiles/ad_enhance.dir/filter.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ad_enhance.dir/filter.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daoan/Desktop/ad-enhance/filter.cc -o CMakeFiles/ad_enhance.dir/filter.cc.s
+
+CMakeFiles/ad_enhance.dir/filter_list.cc.o: CMakeFiles/ad_enhance.dir/flags.make
+CMakeFiles/ad_enhance.dir/filter_list.cc.o: ../filter_list.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ad_enhance.dir/filter_list.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ad_enhance.dir/filter_list.cc.o -c /Users/daoan/Desktop/ad-enhance/filter_list.cc
+
+CMakeFiles/ad_enhance.dir/filter_list.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ad_enhance.dir/filter_list.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daoan/Desktop/ad-enhance/filter_list.cc > CMakeFiles/ad_enhance.dir/filter_list.cc.i
+
+CMakeFiles/ad_enhance.dir/filter_list.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ad_enhance.dir/filter_list.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daoan/Desktop/ad-enhance/filter_list.cc -o CMakeFiles/ad_enhance.dir/filter_list.cc.s
+
+CMakeFiles/ad_enhance.dir/main.cc.o: CMakeFiles/ad_enhance.dir/flags.make
+CMakeFiles/ad_enhance.dir/main.cc.o: ../main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ad_enhance.dir/main.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ad_enhance.dir/main.cc.o -c /Users/daoan/Desktop/ad-enhance/main.cc
+
+CMakeFiles/ad_enhance.dir/main.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ad_enhance.dir/main.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daoan/Desktop/ad-enhance/main.cc > CMakeFiles/ad_enhance.dir/main.cc.i
+
+CMakeFiles/ad_enhance.dir/main.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ad_enhance.dir/main.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daoan/Desktop/ad-enhance/main.cc -o CMakeFiles/ad_enhance.dir/main.cc.s
+
+CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.o: CMakeFiles/ad_enhance.dir/flags.make
+CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.o: ../no_fingerprint_domain.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.o -c /Users/daoan/Desktop/ad-enhance/no_fingerprint_domain.cc
+
+CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daoan/Desktop/ad-enhance/no_fingerprint_domain.cc > CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.i
+
+CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daoan/Desktop/ad-enhance/no_fingerprint_domain.cc -o CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.s
+
+CMakeFiles/ad_enhance.dir/protocol.cc.o: CMakeFiles/ad_enhance.dir/flags.make
+CMakeFiles/ad_enhance.dir/protocol.cc.o: ../protocol.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ad_enhance.dir/protocol.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ad_enhance.dir/protocol.cc.o -c /Users/daoan/Desktop/ad-enhance/protocol.cc
+
+CMakeFiles/ad_enhance.dir/protocol.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ad_enhance.dir/protocol.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daoan/Desktop/ad-enhance/protocol.cc > CMakeFiles/ad_enhance.dir/protocol.cc.i
+
+CMakeFiles/ad_enhance.dir/protocol.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ad_enhance.dir/protocol.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daoan/Desktop/ad-enhance/protocol.cc -o CMakeFiles/ad_enhance.dir/protocol.cc.s
+
 # Object files for target ad_enhance
 ad_enhance_OBJECTS = \
+"CMakeFiles/ad_enhance.dir/bloom-filter-cpp/BloomFilter.cpp.o" \
+"CMakeFiles/ad_enhance.dir/bloom-filter-cpp/hashFn.cpp.o" \
+"CMakeFiles/ad_enhance.dir/hashset-cpp/hash_set.cc.o" \
 "CMakeFiles/ad_enhance.dir/ad_block_client.cc.o" \
 "CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.o" \
 "CMakeFiles/ad_enhance.dir/filter.cc.o" \
 "CMakeFiles/ad_enhance.dir/filter_list.cc.o" \
 "CMakeFiles/ad_enhance.dir/main.cc.o" \
 "CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.o" \
-"CMakeFiles/ad_enhance.dir/protocol.cc.o" \
-"CMakeFiles/ad_enhance.dir/bloom-filter-cpp/BloomFilter.cpp.o" \
-"CMakeFiles/ad_enhance.dir/bloom-filter-cpp/hashFn.cpp.o" \
-"CMakeFiles/ad_enhance.dir/hashset-cpp/hash_set.cc.o"
+"CMakeFiles/ad_enhance.dir/protocol.cc.o"
 
 # External object files for target ad_enhance
 ad_enhance_EXTERNAL_OBJECTS =
 
+ad_enhance: CMakeFiles/ad_enhance.dir/bloom-filter-cpp/BloomFilter.cpp.o
+ad_enhance: CMakeFiles/ad_enhance.dir/bloom-filter-cpp/hashFn.cpp.o
+ad_enhance: CMakeFiles/ad_enhance.dir/hashset-cpp/hash_set.cc.o
 ad_enhance: CMakeFiles/ad_enhance.dir/ad_block_client.cc.o
 ad_enhance: CMakeFiles/ad_enhance.dir/cosmetic_filter.cc.o
 ad_enhance: CMakeFiles/ad_enhance.dir/filter.cc.o
@@ -210,9 +213,6 @@ ad_enhance: CMakeFiles/ad_enhance.dir/filter_list.cc.o
 ad_enhance: CMakeFiles/ad_enhance.dir/main.cc.o
 ad_enhance: CMakeFiles/ad_enhance.dir/no_fingerprint_domain.cc.o
 ad_enhance: CMakeFiles/ad_enhance.dir/protocol.cc.o
-ad_enhance: CMakeFiles/ad_enhance.dir/bloom-filter-cpp/BloomFilter.cpp.o
-ad_enhance: CMakeFiles/ad_enhance.dir/bloom-filter-cpp/hashFn.cpp.o
-ad_enhance: CMakeFiles/ad_enhance.dir/hashset-cpp/hash_set.cc.o
 ad_enhance: CMakeFiles/ad_enhance.dir/build.make
 ad_enhance: CMakeFiles/ad_enhance.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/daoan/Desktop/ad-enhance/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ad_enhance"
